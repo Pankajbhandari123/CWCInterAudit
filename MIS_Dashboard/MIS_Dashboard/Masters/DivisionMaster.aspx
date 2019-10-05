@@ -104,7 +104,7 @@
 
     <div class="panel panel-info">
         <div class="panel-heading">
-            <h3 class="panel-title" align="center"><b>Division Master</b></h3>
+            <h3 class="panel-title" align="center"><b>Division Master Final</b></h3>
             <asp:Label ID="UserId" runat="server" Visible="false"></asp:Label>
             <asp:Label ID="lblLoginName" runat="server" Visible="false"></asp:Label>
         </div>
