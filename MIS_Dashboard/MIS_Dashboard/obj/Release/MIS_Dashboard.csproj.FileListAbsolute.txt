@@ -1,0 +1,12 @@
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\MIS_Dashboard.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\MIS_Dashboard.pdb
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\AjaxControlToolkit.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\BAL.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\BouncyCastle.Crypto.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\MySql.Data.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\DAL.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\BAL.pdb
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\bin\DAL.pdb
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\obj\Release\MIS_Dashboard.csprojResolveAssemblyReference.cache
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\obj\Release\MIS_Dashboard.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\MIS_Dashboard\obj\Release\MIS_Dashboard.pdb

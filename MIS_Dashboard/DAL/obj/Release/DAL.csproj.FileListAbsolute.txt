@@ -1,0 +1,6 @@
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\DAL\bin\Release\DAL.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\DAL\bin\Release\DAL.pdb
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\DAL\bin\Release\MySql.Data.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\DAL\obj\Release\DAL.dll
+C:\Software_and_Code\Backup\MIS_Dashboard\5_Sep_MIS_DashboardTime2.42Working\MIS_Dashboard\DAL\obj\Release\DAL.pdb

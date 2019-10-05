@@ -1,0 +1,975 @@
+﻿@import url("reset.css");
+
+/*
+	 _________________________
+	
+	= Template Name: COMPANIK =
+	 _________________________
+
+  A. ===== GENERAL STYLE =====
+		1. Header Background
+		2. Selection Stylelogout a
+		
+	A1. FULL CONTENT
+		3. Links
+		4. Paragraph
+		5. Headings
+		6. General Table
+		7. Header
+		8. Site Logo
+		9. Header shadow and bottom style
+		
+	A2. TOP HORIZONTAL MENU
+		10. Horizontal menu Background
+		11. Submenu
+		12. Sub-Sub Menu
+		
+	A3. SHEET
+		13. Sheet Shadow
+		14. Layout
+		
+	A4. FOOTER
+		15. Social icons
+		16. Footer Menu
+		17. Footer Text
+		18. Footer links
+		19. Newsletter form
+		
+		20. HR lines
+--------------------------------
+
+  B. ===== GENERAL CONTENT =====
+		21. Lists
+		22. Styled lists
+		23. Dropcap
+		24. Blockquote
+		25. Code
+		26. Message Box
+		27 .Other styles
+		
+	B1. COLUMNS
+		28. 4 columns
+		29. 3 columns
+		30. 2 columns
+		31. Home page services
+	
+	B2. BUTTON
+		32. Bt. with icons
+		33. Button style2, Button style3
+---------------------------------
+		
+		34. Scoll Top	
+		35. Global Header	
+		36. Search Form	
+		37. Call To Action
+		38. Page with Right Sidebar
+		39. Page with Left Sidebar
+		40. Sidebar Block
+		41. Sidebar Menu
+		42. Sidebar Tags
+		43. Sidebar Tabs
+		44. Blog Post
+		45. Pagination Global
+		46. Blog Comments
+		47. Comments Form
+		48. Tipsy tooltip
+	
+  C. ===== PAGES =====
+	Page1: About
+		49. Social icons
+		
+	Page2: Testimonials
+	
+	Page3: Services
+		50. Icons
+		51. Title
+
+	Page4: Portofolio
+		52. 1 column
+		53. 2 columns
+		54. 3 columns
+		55. 4 columns
+		
+	Page5: Contact	
+_________________________________________________________
+_________________________________________________________	
+*/
+
+/*=======================================================
+				=== A. GENERAL STYLE ===
+=======================================================*/
+#main,table {
+font-family:Tahoma, Arial, Helvetica, Sans-Serif;
+font-size:13px;
+}
+
+#main {
+position:relative;
+width:100%;
+left:0;
+top:0;
+cursor:default;
+}
+
+body {
+margin:0 auto;
+padding:0;
+color:#3D3D3D;
+background: url(images/tx/02.png) top left #EAEAEA;
+background-attachment:fixed;
+}
+
+/* == 1. Header Background == */
+div.header {
+background: url(images/theme/header.jpg) no-repeat center center;
+}
+
+.header-global {
+background:url(images/theme/header.jpg) no-repeat bottom center;
+}
+
+/* == 2. Selection Style == */
+::selection {
+background:#49859C;
+color:#000;
+}
+
+::-moz-selection {
+background:#49859C;
+color:#000;
+}
+/**************************************************
+			=== A1. FULL CONTENT BEGIN ===
+***************************************************/
+.full-content {
+position:relative;
+margin:0 auto;
+min-width:1px;
+min-height:1px;
+font-size: 12px;
+line-height: 24px;
+padding:25px;
+}
+
+/* == 3. Links == */
+.full-content a {
+text-decoration:none;
+color:#49859C;
+}
+
+.full-content a:hover,.full-content a.hover {
+text-decoration:none;
+color:#376476;
+}
+
+/* == 4. Paragraph == */
+.full-content p {
+  line-height: 22px;
+  margin-top: 16px;
+  margin-bottom: 28px
+}
+
+/* == 5. Headings == */
+h1,h2,h3,h4,h5,h6 {
+font-family:'Maven Pro', arial, serif;
+}
+
+.full-content h1 {
+  font-size:30px;
+  line-height: 30px;
+  margin: 0 0 30px 0;
+}
+.full-content h2{
+  font-size:24px;
+  line-height: 25px;
+  margin: 36px 0 12px 0;
+}
+.full-content h3{
+  font-size:18px;
+  line-height: 18px;
+  margin: 27px 0 9px 0;
+}
+.full-content h4{
+  font-size:16px;
+  line-height: 16px;
+  margin: 24px 0 8px 0;
+}
+.full-content h5 {
+  font-size:15px;
+  line-height: 15px;
+  margin: 23px 0 7px 0;
+}
+.full-content h6 {
+  font-size:14px;
+  line-height: 14px;
+  margin: 14px 0;
+}
+
+/* == 6. General Table begin == */
+.full-content table,table.full-content {
+border-collapse:collapse;
+margin:1px;
+}
+
+.full-content th,.full-content td {
+padding:2px;
+border:solid 1px #949494;
+vertical-align:top;
+text-align:left;
+}
+
+.full-content th {
+text-align:center;
+vertical-align:middle;
+padding:7px;
+}
+
+/* == 7. Header begin == */
+
+.top-lg {
+position:relative;
+min-height:30px;
+z-index:100;
+background-image:url(images/top-lg.png);
+}
+
+div.header {
+margin:0 auto;
+position:relative;
+width:100%;
+height:300px;
+overflow:hidden;
+
+}
+
+.top-lg-content {
+padding:0 0 0 25px;
+border:0;
+}
+
+.top-lg-right-content {
+float:right;
+padding:13px 10px 0 0;
+font-family:'Maven Pro', arial, serif;
+}
+
+/* == 8. Site Logo == */
+.top-lg-logo {
+width:300px;
+height:30px;
+float:left;
+background: url(images/theme/logo.png) no-repeat left top;
+}
+
+.top-lg-logo:hover {
+width:300px;
+height:30px;
+float:left;
+background:url(images/theme/logo.png) no-repeat left bottom;
+}
+
+/* == 9. Header shadow and bottom style begin == */
+.sh-down-css {
+height:11px;
+width:992px;
+background-image:url(images/sh-down.png);
+background-position:top center;
+background-repeat:no-repeat;
+position:absolute;
+}
+
+.sh-down-css-1 {
+height:20px;
+width:988px;
+background-image:url(images/sh-down-1.png);
+background-position:top center;
+background-repeat:no-repeat;
+}
+
+/*****************************************************
+           === A2. TOP HORIZONTAL MENU ===
+*****************************************************/
+
+/* == 10. Horizontal menu Background == */
+#nav li a {
+color:#FFF;
+}
+/*home*/
+
+#nav li a:hover {
+background:url(images/theme/bgtop-menu.png) no-repeat top center white;
+color:#23415A;
+background-color:white;
+text-decoration:underline;
+
+}
+
+#nav {
+background:#23415A;
+
+float:left;
+margin:0;
+padding:0;
+border-bottom:none;
+color:white;
+	font-weight:bold;
+	font-size:16PX;
+	font-family:Times New Roman;
+	
+	text-align:center;text-decoration:none;
+	border-radius: 50px 0px 50px 0px ;
+
+}
+
+#nav li a,#nav li {
+float:left;
+}
+
+#nav li {
+list-style:none;
+position:relative;
+color:Black;
+	font-weight:bold;
+	font-size:15PX;
+	font-family:Times New Roman;
+	
+	text-align:center;
+	vertical-align:middle;
+
+	
+}
+
+#nav li a {
+padding:4px 5px;
+text-decoration:none;
+margin:0px;
+font-family:Times New Roman;
+font-size:16px;
+font-weight:bold;
+text-transform:capitalize;
+/*color: #fff;
+border-radius: 50px 0px 50px 0px ;
+-moz-border-radius: 50px 0px 50px 0px ;
+-webkit-border-radius: 50px 0px 50px 0px ;*/
+background-color:#31708f;
+}
+
+/* == 11. Submenu == */
+
+
+#nav li ul {
+display:none;
+position:absolute;
+left:0;
+top:100%;
+padding:0;
+margin-top:25PX;
+margin:0;
+box-shadow: 0px 0px 5px 1px #d6c3c3 ;
+/*background:#23415A;
+border-radius: 50px 0px 50px 0px ;
+-moz-border-radius: 50px 0px 50px 0px ;
+-webkit-border-radius: 50px 0px 50px 0px ;*/
+color:red;
+	font-weight:bold;
+	font-size:16PX;
+	font-family:Times New Roman;
+	
+	text-align:center;
+	
+}
+
+#nav li:hover > ul {
+display:block;
+}
+/*line*/
+#nav li ul li,#nav li ul li a {
+/*float:none;*/
+background:#ADADAD;
+color:#23415A;
+text-align:left;
+}
+
+#nav li ul li {
+_display:inline;
+
+/* for IE */
+}
+
+
+#nav li ul li a {
+width:230px;
+display:block;
+font-size:13px;
+font-weight:800;
+text-transform:capitalize;
+
+background-color:White;
+color:#23415A 
+}
+
+#nav li ul li a:hover {
+
+background-color:#23415A;
+color:white;
+}
+
+
+/* == 12. Sub-Sub Menu == */
+#nav li ul li ul {
+display:none;
+background-color:White;
+color:#23415A ;
+position:absolute;
+left:0;
+top:100%;
+padding:0;
+margin-top:25PX;
+margin:0;
+box-shadow: 0px 0px 5px 1px #d6c3c3 ;
+/*background:#23415A;
+border-radius: 50px 0px 50px 0px ;
+-moz-border-radius: 50px 0px 50px 0px ;
+-webkit-border-radius: 50px 0px 50px 0px ;*/
+color:red;
+	font-weight:bold;
+	font-size:16PX;
+	font-family:Times New Roman;	
+	text-align:center;
+}
+
+#nav li ul li:hover ul {
+left:100%;
+top:0;
+display:block;
+}
+
+#nav li ul li ul li a:hover {
+
+color:	#23415a;
+background-color:white;
+}
+/*SLIDE SHOW*/
+
+
+
+
+
+#page-wrap						{ background: white; width: 100%; margin: 0 auto; 
+								  padding: 50px 0; }
+
+#slider							{ background: white ;background-color:#1C3684; height: 320px; width:1214px; overflow: hidden;
+								  position: relative;  }
+								  
+       
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */								  
+#mover							{ width: 100%; position: relative; }
+
+.slide							{ padding: 4px 20px; width: 1300px; float: left; position: relative; }
+.slide h1						{ font-family:Times New Roman;  
+								  color: white; }
+.slide p						{ font-family:Times New Roman;color: white; font-size: 13.5px; line-height: 22px; width: 600px; }
+.slide img						{ position: absolute; top: 0px; left: 678px; }
+#slider-stopper					{ position: absolute; top: 297px; right: 482px; background: red; color: white;
+								  padding: 3px 8px; font-size: 10px;text-decoration:none; text-transform: uppercase; z-index: 1000;border-radius: 100px 0px 100px 5px ; }
+
+.slide h3
+{
+	font-family:Times New Roman; color: white;
+	}
+#slider-stopper:hover
+{
+	background: #23415A;
+}	
+#slider-stopper:hovered
+{
+	background: yellow;
+	}		
+	
+		
+	#nav li ul a:visited ul li a
+	{
+		background-color:White;
+		}
+	/* upstram */
+	
+	#nav li ul li:hover ul li a
+	{
+		background-color:White;
+		color:Black;
+		
+		}	
+		#nav li ul li ul li:hover ul li a
+	{
+		background-color:black;
+		color:White
+		}		
+			#nav li ul li ul li a:hover 
+			{
+				background-color:Black;
+		color:White;
+				}	 
+				 #nav li ul li ul li ul li a:hover
+	{
+		background-color:White;
+		color:Black
+		}	
+		
+		
+		
+		
+		
+		
+		
+		.liserv
+		{
+			/*color:#23415A;*/
+			font-family:Times New Roman;
+			font-size:14px;
+			text-decoration:none;
+			height:23px;
+	    }
+	    
+	    	
+	    	.liserv a
+	    	{
+	    		text-decoration:none;
+	    		color:#23415A;
+	    		font-weight:900;
+	    		}
+	    		.liserv a:hover
+	    	{
+	    		text-decoration:underline;
+	    		color:#23415A;
+	    		font-weight:900;
+	    		font-size:18px;
+	    		}
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		
+	    		#sav li a {
+color:#FFF;
+background:url(images/theme/bgtop-menu.png) no-repeat bottom center #737373;
+}
+
+#sav li a:hover {
+background:url(images/theme/bgtop-menu.png) no-repeat top center white;
+color:#23415A;
+}
+
+#sav {
+background-color:White;color:#23415A;
+
+margin:0;
+padding:0;
+border-bottom:none;
+color:white;
+	font-weight:bold;
+	font-size:16PX;
+	font-family:Times New Roman;
+	
+	text-align:center;text-decoration:none;
+	
+
+}
+
+#sav li a,#sav li {
+float:left;
+}
+
+#sav li {
+list-style:none;
+position:relative;
+color:Black;
+	font-weight:bold;
+	font-size:15PX;
+	font-family:Times New Roman;
+	
+	text-align:center;
+	vertical-align:middle
+	
+}
+
+#sav li a {
+padding:4px 5px;
+text-decoration:none;
+margin:0px;
+font-family:Times New Roman;
+font-size:15px;
+font-weight:bold;
+text-transform:capitalize;
+/*color: #fff;
+border-radius: 50px 0px 50px 0px ;
+-moz-border-radius: 50px 0px 50px 0px ;
+-webkit-border-radius: 50px 0px 50px 0px ;*/
+background-color:#D9D9D9;color:#23415A
+}
+
+/* == 11. Submenu == */
+
+
+#sav li ul {
+display:none;
+position:absolute;
+left:0;
+top:100%;
+padding:0;
+margin-top:0PX;
+margin:0;
+/*background:#23415A;
+border-radius: 50px 0px 50px 0px ;
+-moz-border-radius: 50px 0px 50px 0px ;
+-webkit-border-radius: 50px 0px 50px 0px ;*/
+color:red;
+	font-weight:bold;
+	font-size:15PX;
+	font-family:Times New Roman;
+	
+	text-align:center;
+	
+}
+
+#sav li:hover > ul {
+/*display:block;*/
+background:	#D9D9D9;
+color:#23415A;
+}
+
+#sav li ul li,#nav li ul li a {
+float:right;
+background:	#D9D9D9;
+color:#23415A;
+text-align:left;
+}
+
+#sav li ul li {
+_display:inline;
+/* for IE */
+}
+
+
+#sav li ul li a {
+width:230px;
+display:block;
+font-size:13px;
+font-weight:800;
+text-transform:capitalize;
+
+/*background-color:White;
+color:#23415A */
+}
+
+#sav li ul li a:hover {
+
+color:	#FF6A33;
+}
+
+/* == 12. Sub-Sub Menu == */
+#sav li ul li ul {
+display:none;
+/*background-color:White;
+color:#23415A */
+
+}
+
+#sav li ul li:hover ul {
+left:100%;
+top:0;
+
+}
+
+
+
+/*product overview*/
+
+
+ul.enlarge{
+list-style-type:none; /*remove the bullet point*/
+margin-left:-50px;
+}
+ul.enlarge li{
+display:inline-block; /*places the images in a line*/
+position: relative;
+z-index: 0; /*resets the stack order of the list items - later we'll increase this*/
+margin:3px 3px 0 10px;
+}
+ul.enlarge img{
+background-color:#90B5D4;
+padding: 4px;
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+border-radius: 4px; 
+}
+ul.enlarge span{
+position:absolute;
+left: -9999px;
+background-color:#DAE6F0;
+padding: 10px;
+font-family: Times New Roman
+font-size:15PX;
+font-weight:900;
+text-align: center; 
+color: #23415A; 
+-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+box-shadow: 0 0 20px rgba(0,0,0, .75);
+-webkit-border-radius: 8px; 
+-moz-border-radius: 8px; 
+border-radius:8px;
+}
+ul.enlarge li:hover{
+z-index: 50;
+cursor:pointer;
+}
+ul.enlarge span img{
+padding:2px;
+background:#ccc;
+}
+ul.enlarge li:hover span{ 
+top: -240px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left: -130px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+ul.enlarge li:hover:nth-child(2) span{
+left: -100px; 
+}
+ul.enlarge li:hover:nth-child(3) span{
+left: -200px; 
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+ul.enlarge img, ul.enlarge span{
+behavior: url(pie/PIE.htc); 
+}
+
+
+#nav li ul li a
+{
+	background-color:#ffffff;
+	color:#23415a
+}
+
+.alert-box {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:10px 10px 10px 36px;
+    margin:10px;
+}
+
+.alert-box span {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.alert-box a {
+    text-decoration:none;
+    color:black;
+}
+
+.error {
+    background:#ffecec url('images/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+.success {
+    background:#e9ffd9 url('images/success.png') no-repeat 10px 50%;
+    border:1px solid #a6ca8a;
+}
+.warning {
+    background:#fff8c4 url('images/warning.png') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+}
+.notice {
+    background:#e3f7fc url('images/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+
+.notice1 {
+    background:#ffecec url('images/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+
+.notice2 {
+    background:#e9ffd9 url('images/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+
+.notice3 {
+    background:#fff8c4 url('images/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+
+
+
+
+
+
+
+
+
+
+/*product overview end */
+
+
+/*For Logout Div*/
+
+
+#logout, #logout ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	list-style-position:outside;
+	position:relative;
+	line-height:1.5em; 
+	font-family: Tahoma,Verdana,Calibri,sans serif;
+	font-weight:bold;
+	font-size:11px;
+	width:auto;
+	border:solid 0px red;
+
+}
+/* #logout ul li a
+{
+	border:1px solid red;
+
+	height:28px;
+	}
+*/	
+#logout a{
+display:block;
+padding:1px 5px;
+/*border:1px solid #23415a;*/
+
+color:#fff;
+text-decoration:none;
+background-color:#84bb34;
+width:100px;
+height:23px;padding-top:2px;
+}
+
+#logout a:hover{
+background-color:#2f8052;
+color:#ffffff;
+}
+
+#logout li{
+float:left;
+position:relative;
+padding-left:0px;
+border:0px solid red;
+	
+}
+#logout ul {
+position:absolute;
+display:none;
+width:12em;
+top:1.2em;
+z-index:1500;
+left:-26px;
+}
+
+#logout li ul a{
+width:120px;
+height:auto;
+float:left;
+background-color:#ffffff;
+color:#23415a;
+vertical-align: middle;
+line-height: normal;
+letter-spacing: normal;
+padding-bottom:6px;
+}
+
+#logout ul ul{
+top:auto;
+
+}	
+
+#logout li ul ul {
+left:12em;
+margin:0px 0 0 10px;
+}
+
+#logout li:hover ul ul, #logout li:hover ul ul ul, #logout li:hover ul ul ul ul{
+display:none;
+}
+#logout li:hover ul, #logout li li:hover ul, #logout li li li:hover ul, #logout li li li li:hover ul{
+display:block;
+}
+/*Added*/
+#logout li ul{
+margin:14px 0 0 0px;
+}
+#logout li a{
+
+width   : 80px;
+text-align:center;
+}
+#logout li ul li a
+{
+text-align:left;
+
+
+}
+#logout li ul a:hover{
+width:120px;
+height:auto;
+float:left;
+background-color:#23415a;
+color:#ffffff;
+/*border-color:#ffffff;*/
+
+}
+/*Added*/
+
+#divLogout
+
+{
+	border:solid 0px red;
+	width   : 100px;
+	height:30px;
+	float:left;
+	font-family: Tahoma,Verdana,Calibri,sans serif;
+	font-weight:bold;
+	font-size:11px;
+	padding-right:6px;
+	margin-top:2px;
+	float:right;
+
+}
+
+
+        ::-webkit-scrollbar {
+            width: 12px;
+            color:#5d7b9d;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px #5d7b9d;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px #5d7b9d;
+        }
+
+.imgResponsive
+{
+    max-height: 150px;
+    max-width: 150px;
+}

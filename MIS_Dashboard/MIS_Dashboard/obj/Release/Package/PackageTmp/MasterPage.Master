@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MIS_Dashboard.MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MIS Dashboard</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <%-- <link href="menu_source/styles.css" rel="stylesheet" />
+  <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+
+    <link href="bootstrap-4.3.1-dist/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap-4.3.1-dist/css/style.css" rel="stylesheet" />
+    <link href="bootstrap-4.3.1-dist/css/Grid.css" rel="stylesheet" />
+    <link href="bootstrap-4.3.1-dist/css/style2.css" rel="stylesheet" />
+    <link href="bootstrap-4.3.1-dist/css/GridView.css" rel="stylesheet" />
+    <script src="bootstrap-4.3.1-dist/js/jquery.js"></script>--%>
+
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Content/menu.css" />
+    <link rel="stylesheet" type="text/css" href="Content/menu.css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/bootstrap.min.js"></script>
+  <%--   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />--%>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+     
+</head>
+<body onload="window.history.forward(-1)">
+    <script>
+        var myVar = setInterval(function () { myTimer() }, 1000);
+
+        function myTimer() {
+            var d = new Date(),
+                minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+                hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+                ampm = d.getHours() >= 12 ? 'PM' : 'AM',
+                months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+            document.getElementById("lblTime").innerHTML = days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ' + hours + ':' + minutes + ampm;
+
+        }
+    </script>
+    <form id="form1" runat="server" autocomplete="off">
+        <div>
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+            <div class="container-fluid" style="background-color: #fff; color: #000;">
+                <div class="row" style="border-bottom: thin">
+                    <div class="col-lg-3">
+                        <a href="#" target="_blank">
+                            <img class="img-responsive" src="cwc_logo.png"  style="margin-top: 5px; height: 70px; " /></a>
+                    </div>
+                   
+                    <div class="col-lg-7 text-center">
+                        <h1 style="margin-top: 30px; color: #006e2e;">Action Plan Dashboard</h1>
+                    </div>
+                    <div class="col-lg-2" style="float: right;">
+                        <br />
+                        <b>Welcome :</b>
+                        <asp:Label ID="lblUsernameDisplay" Text="Administrator" Style="margin-top: 8px; height:20px; font-family: Verdana; font-size: 12px; color: green;"
+                            runat="server"></asp:Label>
+                        <asp:Label ID="lblDate" runat="server" Font-Bold="True" Style="margin-top: 8px; height:20px; font-family: Verdana; font-size: 12px; color: black;"></asp:Label><br />
+                        <asp:Label ID="lblTime" runat="server" Font-Bold="True" Style="margin-top: 8px; height:20px; font-family: Verdana; font-size: 12px; color: black;"></asp:Label>
+                    </div>
+                </div>
+                <div class="row" style="height: 10px;"></div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="menu" runat="server"></div>
+                    <div id="divLogout" style="z-index: 10; position: absolute; margin-left: 91%; height:1px">
+                        <ul id='logout'>
+                            <li><a href="#">Options<img alt="" src="images/arrow-down1.png" style="vertical-align: middle;" /></a>
+                                <ul>
+                                    <li>
+                                        <asp:LinkButton ID="lnkChangePassword" runat="server" OnClick="lnkChangePassword_Click" > Change Password</asp:LinkButton>
+                                    </li>
+                                    <li>
+                                        <asp:LinkButton ID="lnklogout" runat="server" Font-Underline="false" OnClick="lnklogout_Click"  CausesValidation="false">Logout</asp:LinkButton>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <%------------------------------------Top Header End------------------------------%>
+
+
+            <%------------------------------------Header End------------------------------%>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <asp:ContentPlaceHolder ID="Cph" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <%------------------------------------Footer Start------------------------------%>
+            <%--<div class="container-fluid">
+                <div class="row" style="height: 40px;">
+                    <div class="col-lg-12" style="background-color: #45484d; left:0; position:  fixed ;bottom:0; right:0; height: 40px;">
+                        <p style="color: #fff; margin-top: 10px;" class="text-center">Copyright 2019 © VCS Pvt. Ltd.</p>
+                    </div>
+                </div>
+            </div>--%>
+            <%------------------------------------Footer End------------------------------%>
+        </div>
+        <%--  <div class="panel-footer">Powered by Vedang</div>--%>
+    </form>
+</body>
+</html>

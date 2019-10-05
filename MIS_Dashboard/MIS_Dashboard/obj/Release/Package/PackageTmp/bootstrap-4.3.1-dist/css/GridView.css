@@ -1,0 +1,1504 @@
+﻿html, body
+{
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    line-height: 1.5em;
+    margin: 5px 10px 0 10px;
+}
+a
+{
+    cursor: pointer;
+}
+#pageDiv
+{
+    width: 980px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tdBold
+{
+    font-weight:bold;
+}
+#innerDiv1
+{
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#innerDiv2
+{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 0px;
+    border: solid 1px #cccccc;
+}
+
+#headerDiv
+{
+    color: #ccc;
+    padding: 0px 0px 0px 0px;
+    height: 62px;
+    border: solid 0px red;
+    background-color: #e5e5e5; /*background-color:#dfe0e1; width:938px;*/
+}
+
+#leftHeader
+{
+    width: 267px;
+    float: left;
+    height: 62px;
+    border: 0px solid red;
+}
+
+#leftHeader img
+{
+    width: 80px;
+    height: 60px;
+    margin-left: 10px;
+}
+.leftHeaderText
+{
+    vertical-align: bottom;
+    color: #0f62ac;
+    font-weight: bold;
+    font-size: 9px;
+    border: solid 0px blue;
+}
+
+#rightHeader
+{
+    width: 710px;
+    float: right;
+    height: 62px;
+    border: 0px solid green;
+}
+.modalBackground
+{
+    background-color: Gray;
+    -ms-filter:'alpha(opacity=50)';
+    -ms-opacity:0.7;
+    overflow-y:auto;
+    overflow-x:scroll;
+    
+}
+
+#rightHeadertext
+{
+    width: 450px;
+    float: left;
+    height: 65px;
+    border: 0px solid green;
+    font-size: 16px;
+    padding-top: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #0f62ac;
+}
+
+#rightHeaderLogo
+{
+    width: 400px;
+    float: right;
+    height: 62px;
+    border: 0px solid green;
+    vertical-align: middle;
+}
+#menuDiv
+{
+    background-color:#23415A;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-weight: bold;
+    z-index: 99999;
+}
+#menuDiv
+
+#contentDiv
+{
+    min-height: 430px;
+    height: auto !important;
+    height: 450px;
+    border-top: 1px solid #ccc;
+    width: 965px;
+    margin-left: 8px;
+    padding-bottom: 5px;
+}
+#logintable
+{
+    background: url(../images/mid1.gif) no-repeat;
+    margin-top: 120px;
+    height: 200px;
+    font-weight: bold;
+    color: #1473A0;
+    font-size: 14px;
+}
+#footerDiv
+{
+    height: 30px;
+    border-top: 1px solid #ccc;
+    margin-left: 0px;
+    font-size: 12px;
+    color: #999999;
+    background-color: #e5e5e5; /*background:url(../images/footerbg.jpg);width:900px;margin-left:10px*/
+}
+#rightbt
+{
+    width: 200px;
+    float: right;
+    height: 30px;
+    padding-top: 15px;
+    padding-right: 10px;
+    text-align: right;
+    border: 0px solid green;
+}
+#leftbt
+{
+    width: 250px;
+    float: left;
+    border: 0px solid red;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 0px solid red;
+}
+#midbt
+{
+    width: 332px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 155px;
+    border: 0px solid blue;
+}
+.tableCSS
+{
+    width: 920px;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    margin: 10px 0 10px 0;
+    color: #0f62ac;
+    border: solid 0px #ccc;
+}
+
+.ListCss
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+    border: solid 1px #0f62ac;
+    margin-left: 0px;
+    width: 155px;
+}
+.GridCss
+{
+    border: solid 1px #0f62ac;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: #0f62ac;
+    margin-left: 0px;
+    height: 100px;
+}
+.gridHeaderCss
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 12px;
+    color: White;
+    background-color: #0f62ac;
+    height: auto;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.btn
+{
+    height: 26px;
+    margin-bottom: 7px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 12px;
+    width: 70px;
+}
+.lnkbtn
+{
+    height: 26px;
+    margin-bottom: 7px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 12px;
+    width: 70px;
+}
+
+
+select
+{
+    /*border: solid 1px #0f62ac;*/
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    /*height: 17px;*/
+}
+.dropdown
+{
+    /*border: solid 1px #0f62ac;*/
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+}
+
+
+#messageID
+{
+    color: Red;
+    font-size: 11px;
+    font-family:Arial;
+    font-weight: bold;
+    height: 15px;
+}
+#messageID1
+{
+    color: Red;
+    font-size: 11px;
+    font-family:Arial;
+    font-weight: bold;
+    height: 15px;
+}
+.Error
+{
+    color: Red;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-weight: bold;
+    height: 12px;
+}
+
+
+
+.tableStyleAdmin
+{
+    width: 300px;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    margin: 10px 0 10px 0;
+    color: #0f62ac;
+}
+.top-nav
+{
+    background: url(../images/top1.gif) no-repeat;
+    height: 24px;
+    width: 960px;
+    margin-left: 9px;
+    color: white;
+    font-weight: bold;
+}
+#logoutDiv
+{
+    border: 0px solid #000;
+    width: auto;
+    height: 24px;
+    float: right;
+    padding-left: 895px;
+    margin-top: 1px;
+    padding-right: 1px;
+    z-index: 99999;
+}
+
+/*a {color:#333; text-decoration:none}*/
+/*a:hover {color:#ccc; text-decoration:none}*/
+/*a:hover {color:#0f62ac; text-decoration:none}*/
+
+.popupTable
+{
+    width: 700px;
+    font: 11px arial;
+}
+
+
+
+.ReportImage
+{
+    background-image: url(../images/arrow.jpg);
+}
+#mandatoryRed
+{
+    color: Red;
+}
+
+
+
+
+
+#login-box
+{
+    width: 426px;
+    height: 258px;
+    padding: 58px 0px 0px 50px;
+    color: #ebebeb;
+    font-size: 12px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    background: url(../images/login-box-backg1.png) no-repeat;
+}
+
+.login-box-name
+{
+    float: left;
+    display: inline;
+    width: 80px;
+    text-align: left;
+    padding: 0px 0px 0 0;
+    margin: 0 0 7px 0;
+    border: 0px solid red;
+    font-size: 14px;
+}
+
+.login-box-field
+{
+    float: left;
+    display: inline;
+    width: 200px;
+    margin: 0;
+    margin: 0 0 7px 0;
+}
+.form-login
+{
+    width: 205px; /*padding: 10px 4px 6px 3px;*/
+    padding: 0px 4px 0px 3px;
+    border: 1px solid #0f62ac;
+    background-color: #1e4f8a;
+    font-size: 16px;
+    color: #ebebeb;
+    height: 22px;
+}
+.loginh2
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    color: #ebebeb;
+    font: bold 22px "Calibri" , Arial;
+    text-align: center;
+}
+.login-box-options
+{
+    clear: both;
+    padding-left: 0px;
+    font-size: 11px;
+}
+
+.login-box-options a
+{
+    color: #ebebeb;
+    font-size: 11px;
+}
+/*For Menu Rights table*/
+.tableStyle
+{
+    background-color: #e5e5e5;
+    color: #0f62ac;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+
+.tblMenuRights
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    color: #0f62ac;
+    font-size: 11px;
+}
+/*For Menu Rights table*/
+
+.tabletrcss
+{
+    border: solid 1px #c0c0c0;
+    margin: 15px 0 0 0;
+    width: 780px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px; /*width:700px;      margin:10px 0 0 0;     border:0px solid #c0c0c0;     text-align:center; 	height: 257px;*/
+}
+.tabletrcss tr
+{
+    /*border:1px solid #c0c0c0;*/
+    margin: 0 0 0 0; /*width:700px;*/
+}
+.tabletrcss td
+{
+    /*width:695px;*/
+    margin: 0 0 0 0;
+    border:solid  1px #c0c0c0;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+.tabletrcssCont td
+{
+    /*width:695px;*/
+    margin: 0 0 0 0;
+    border: solid  1px #c0c0c0;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+/*.mainHeaderDiv
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #e5e5e5;
+    border-bottom: solid 1px #c0c0c0;
+    color: #0f62ac;
+    font-weight: bold;
+    font-size: 16px;
+}*/
+
+.mainDivDashboard
+{    
+    text-align: center;
+    background-color: #e4e4e4;
+    border: solid 1px #0f62ac;
+    color: #0f62ac;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 12px;
+    width: 700px;
+}
+
+.mainDiv
+{
+    width: 880px;
+    padding-bottom: 5px;
+    border: solid  1px #c0c0c0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.mainHeadLabel
+{
+    color: #0f62ac;
+    font-weight: bold;
+    font-size: 16px;
+}
+.tableDiv
+{
+    width: 700px;
+    margin: 10px 0 0 0;
+    border: 0px solid #c0c0c0;
+    text-align: center;
+    height: 184px;
+}
+
+.tableDivSmall
+{
+    width: 700px;
+    margin: 10px 0 0 0;
+    border: 0px solid #c0c0c0;
+    text-align: center;
+}
+
+.tableDivv
+{
+    width: 950px;
+    margin: 10px 0 0 0;
+    border: 1px solid #c0c0c0;
+    text-align: center;
+}
+#mask
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #ffffff;
+    display: none;
+}
+
+#contentDiv .window1
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 350px;
+    height: 120px;
+    display: none;
+    z-index: 9999;
+    margin: 0 0 0 0; /* padding:5px;*/ /*border:1px solid #0f62ac;*/
+    border: 5px solid #c0c0c0;
+    background-color: #e5e5e5; /*overflow:auto;*/
+}
+
+.h2Css
+{
+    color: #0F62AC;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: #e5e5e5;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+#contentDiv .window
+{
+    /*	background:#CFECEC;  	color:#fff; 	 position:absolute;     left:0;     top:0; 	 width:350px;     display:none;     z-index:9999;     margin:0 15px;*/
+    position: absolute;
+    left: 0;
+    top: 5;
+    width: 800px;
+    height: 395px;
+    display: none;
+    z-index: 9999;
+    padding: 5px;
+    border:solid 1px #2F7C9F;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+
+.asterik
+{
+    color: Red;
+    margin-left: 2px;
+    font-size: 11px;
+}
+
+/*.labelPageHeader
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0f62ac;
+    
+}*/
+
+
+
+.border
+{
+    /*border-color:#e5e5e5; 	border-style:solid; 	border-width:1px;*/
+    border-style: none;
+}
+
+.DivDownload
+{
+    width: 780px;
+    height: 24px;
+}
+
+
+/* for empty row in grid*/
+.EmptyDataRowCss
+{
+    border-color: #c0c0c0;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    color: #0F62AC;
+    background-color: #E5E5E5;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+    white-space: nowrap;
+    
+}
+.EmptyDataRowCss th
+{
+    border-color: #c0c0c0;
+    border-style: solid;
+    border-width: 1px;
+}
+.EmptyTableBorder
+{
+    border: solid 0px #0f62ac;
+}
+.EmptyRowBorder
+{
+    border: solid 1px #84BB34;
+}
+
+
+/* for empty row in grid*/
+
+
+/*for System page*/
+.tabletrcsssystem
+{
+    border: solid 1px #c0c0c0;
+    margin: 10px 0 0 0;
+    width: 550px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px; /*width:700px;      margin:10px 0 0 0;     border:0px solid #c0c0c0;     text-align:center; 	height: 257px;*/
+}
+
+.SystemDiv
+{
+    width: 140px;
+    border: solid 1px #c0c0c0;
+    height: 350px;
+}
+
+.SystemDivMain
+{
+    width: 760px;
+    border: solid 1px #c0c0c0;
+    height: 350px;
+}
+
+
+.mainDivSystem
+{
+    width: 940px;
+    padding-bottom: 5px;
+    border: 1px solid #c0c0c0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.IntExtHeaderDiv
+{
+    padding-top: 0px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: #E0FFFF;
+    color: #0f62ac;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 5px;
+}
+
+.DivButtonMain
+{
+    width: 740px;
+    padding-bottom: 5px;
+    border: 1px solid #c0c0c0;
+    text-align: center;
+    margin-top: 0;
+    height: 400px;
+}
+
+.DivLinkButtonSystem
+{
+    width: 300px;
+    background: url(    '../images/Glitter Heart Button 3column HEADER.jpg' ) no-repeat bottom;
+}
+
+#DivSystem a:hover
+{
+    color: Black;
+    text-decoration: none;
+    background-color: Black;
+}
+
+
+.labelPageHeaderSystem
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #0f62ac;
+}
+
+.tableDivSystem
+{
+    width: 700px;
+    margin: 0 0 0 0;
+    border: 0px solid #c0c0c0;
+    text-align: center;
+    height: 257px;
+}
+/* END for System page*/
+
+
+
+/*For Repeater table*/
+
+.repTable
+{
+    border: solid 0px #c0c0c0;
+    margin: 0px;
+    width: 330px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+}
+.repTable tr
+{
+    margin: 0 0 0 0;
+}
+.repTable td
+{
+    margin: 0 0 0 0;
+    border: 1px solid #c0c0c0;
+}
+
+/*End of Repeater table*/
+
+/* For LookUp */
+.btnLookUp
+{
+    height: 26px;
+    background: url('../images/grid_header_bg.gif' );
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    width: 135px;
+    border: none;
+    text-align: left;
+    color: White;
+}
+
+.setUrl
+{
+    background-image: url('../images/grid_header_bg.gif' );
+    height: 26px;
+    width: 125px;
+    text-align: left;
+    color: White;
+    border: none;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+
+/* End of Look Up */
+
+
+
+/* 
+.multext
+{
+	height: 200px;
+	width: 40px;
+	overflow: auto;
+	font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+	font-size: 11px;
+	color: Black;
+	border: solid 1px #cccccc;
+	margin-left: 0px;
+}
+*/
+.tabletrcssCon
+{
+    border: solid 1px #c0c0c0;
+    margin: 15px 0 0 0;
+    width: 400px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px; /*width:700px;      margin:10px 0 0 0;     border:0px solid #c0c0c0;     text-align:center; 	height: 257px;*/
+}
+
+.EmptyDataRowCssConfir
+{
+    border-color: #c0c0c0;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    color: #0F62AC;
+    background-color: #E5E5E5;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: normal;
+}
+.rowHeader
+{
+    background-color: #e5e5e5;
+    font-family: Tahoma,Verdana,Calibri,sans serif;
+    color: #0F62AC;
+    font-weight: bold;
+}
+.tdHeader
+{
+   color :#0f62ac;
+   background:#e5e5e5;
+   text-align:left;
+   font-size:12px;
+}
+.tdHeaderNew
+{
+   color :white;
+   background:grey;
+   text-align:left;
+   font-size:12px;
+   font-weight:bold;
+ 
+}
+.tabletrcssPayment
+{
+    border: solid 1px #c0c0c0;
+    margin: 15px 0 0 0;
+    width: 680px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px; /*width:700px;      margin:10px 0 0 0;     border:0px solid #c0c0c0;     text-align:center; 	height: 257px;*/
+}
+.tabletrcssPayment tr
+{
+    /*border:1px solid #c0c0c0;*/
+    margin: 0 0 0 0; /*width:700px;*/
+}
+.tabletrcssPayment td
+{
+    /*width:695px;*/
+    margin: 0 0 0 0;
+   
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+.RepeaterCss
+{
+	border: solid 1px #c0c0c0;
+	font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+	font-size: 11px;
+	color: #0f62ac;
+	margin-left: 0px;
+	height: auto;
+}
+.RepeaterCssDD
+{
+	border: solid 0px #c0c0c0;
+	font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+	font-size: 11px;
+	color: #0f62ac;
+	margin-left: 0px;
+	height: auto;
+}
+
+.RepeaterHeader
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: #e5e5e5;
+	font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+	border-bottom: solid 1px #c0c0c0;
+	color: #0f62ac;
+	font-weight: bold;
+	font-size: 11px;
+}
+.tableRepeaterCSS
+{
+    width: 920px;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    margin: 10px 0 10px 0;
+    color: #0f62ac;
+    border: solid 0px #ccc;
+}
+.tableRepeaterCSS td
+{
+    border:solid  1px #c0c0c0;
+    height:10px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    padding:4px 4px 4px 4px;
+}
+#ajax__calendar_close_button
+{
+    margin-right: 5px;
+    margin-left: auto;
+    width: 10px;
+    cursor: pointer;
+    text-align: right;
+}
+.Calendar
+{
+    width: 180px;
+    height: 210px;
+    border: solid 1px #e5e5e5;
+    border-color: Gray;
+    background-color: White;
+    margin: 0 0 0 0;
+    color: Black;
+    font-weight: normal;
+}
+.cal_Calendar .ajax_calendar_invalid .ajax_calendar_day,
+.CalendarDisable
+{
+    color: Black;
+    font: Gray;   
+    text-decoration:none; 
+    cursor:pointer;    
+}
+ .ajax__calendar_inactive  
+ {
+ 	color:#dddddd;
+ }
+ /* commented for application form
+.GridItemStyle
+{
+	border-color: #50a4ef;
+	border-style: solid;
+	border-width: 1px;
+}*/
+.GridItemStyleNos
+{
+	border-color: #50a4ef;
+	border-style: solid;
+	border-width: 1px;
+	text-align:right;
+}
+.TextColor
+{
+	color: #0f62ac;
+}
+/*.PagerText
+{
+	  background-image: url('images/grid_header_bg.gif' );
+	/*background-color:#50a4ef;
+	/*background-color:#50a4ef;
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Arial;
+	border-left: solid 1px #50a4ef;
+	border-right: solid 1px #50a4ef;
+}*/
+
+.PagerText
+{
+   /* background-image: url('../images/grid_header_bg.gif' );*/
+    background-color:#0f62ac;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    border-left: solid 1px #50a4ef;
+    border-right: solid 1px #50a4ef;
+}
+
+
+
+
+
+.tdLeftHeadsCss
+{
+	font-weight:bold;
+	color:#a0a0a0;
+	font-size:11px
+}
+
+.listboxCss
+{
+	height:auto;
+	min-height:50px;
+	border:none;
+}
+.lblHeads
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: #0f62ac;
+}
+
+.divLoginMainsNew
+{
+	min-height: 380px;
+	height: auto !important;
+	width: 980px;
+	background: url('../images/bgNew.gif') no-repeat; /* filter: alpha(opacity=30); /*  opacity: 0.3;*/
+}
+
+.divHeaderMainsNew
+{
+	font-family: Tahoma,Verdana,Calibri,sans serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	background: url('../images/bg1_hd.gif' ) no-repeat; /*  url(../images/SystemButton.gif);*/
+}
+
+.divfooterLogoNew
+{
+	font-family: Tahoma,Verdana,Calibri,sans serif;
+	height: 60px;
+	background: url(  '../images/bg1_btm.gif' ) no-repeat;
+}
+.divTablenew
+{
+	width: 320px;
+	margin-left: 560px;
+	margin-top: -340px;
+	border: solid 1px #c0c0c0;
+}
+.divTableFrst
+{
+	width: 230px;
+	margin-left: 120px;
+	margin-top: 20px;
+	height: 260px;
+	position: fixed;
+	
+}
+.lblHeadNew
+{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0F62AC;
+	height:18px;
+	padding-bottom:0px;
+}
+.lblFooterNew
+{
+	text-align: center;
+	height: 40px;
+	font-size: 12px;
+	color: #c0c0c0;
+}
+
+.divMainNew
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	background: #ffffff;
+}
+
+
+.divAboutus
+{
+	width: 340px;  
+	margin-top:-55px;
+	 margin-left:120px; 
+	 text-align:justify;
+}
+.ViewEdit
+{
+    font-weight: bold;
+    color: #0f62ac;
+    background-color: #e5e5e5;
+}
+
+/*For Menu Rights table*/
+.tableStyle
+{
+    background-color: #e5e5e5;
+    color: #0f62ac;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+
+.tblMenuRights
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    color: #0f62ac;
+    font-size: 11px;
+}
+.ShowBorder
+{
+    border: solid 1px #cccccc;
+}
+/*For Menu Rights table*/
+
+
+.TopHeaderBorder
+{
+	border-top  :solid 1px #0F62AC;
+
+}
+
+.DisableText
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color:#7e7e7e;
+    margin-left: 0px;
+    width: 155px;
+    height: 16px;
+   /* background-color:#e5e5e5;
+   */
+}
+
+.GridTabletrCss
+{
+    border: solid 1px #c0c0c0;
+    margin: 15px 0 0 0;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px; /*width:700px;      margin:10px 0 0 0;     border:0px solid #c0c0c0;     text-align:center; 	height: 257px;*/
+}
+.GridTabletrCss tr
+{
+    /*border:1px solid #c0c0c0;*/
+    margin: 0 0 0 0; /*width:700px;*/
+    border:solid  1px #c0c0c0;
+
+}
+.GridTabletrCss td
+{
+    /*width:695px;*/
+    margin: 0 0 0 0;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+.mainRowHeader
+{
+	padding-top: 10px; 
+	padding-bottom: 5px; 
+	text-align: center;
+    background-color: #e5e5e5;
+    border-bottom:solid 1px #c0c0c0;
+    color:#0f62ac;
+    font-weight:bold;
+    font-size:11px;
+}
+.tdWidthCSS
+{
+	width:200px;
+}
+
+.divGridPageHeader
+{
+    background-image: url('../images/grid_header_bg.gif');
+    height: 24px;
+    width: 780px;
+}
+.PagingHeaderCss
+{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+}
+
+/*Nadim for village*/
+
+.divDescription
+{
+	font-family:Arial;
+	font-size:11px;
+	color:#0F62AC;
+	/*width:155px;*/
+	font-weight:bold;
+	 width:730px;
+    
+    border:0px solid #c0c0c0;
+    text-align:center;
+    margin:5px auto; 
+}
+
+.TextHindiCss
+{
+	font-family:shusha;
+	font-size:15px;
+	color:Black;
+	border: solid 1px #cccccc;
+	margin-left: 0px;
+	width:155px;
+	
+}
+
+.LabelHindiCss
+{
+	font-family:shusha;
+	font-size:15px;
+	color:Black;
+	margin-left: 0px;
+	width:155px;
+}
+.TextCssCenter
+{
+	font-family:Arial;
+	font-size:11px;
+	color:Black;
+	border: solid 1px #cccccc;
+	margin-left: 0px;
+	width:60px;
+	text-align:center;
+	
+	
+}
+
+.gridColumns
+{
+	border-color:#0F62AC;
+	border-style:solid;
+	border-width:1px;
+    text-align:center;
+
+}
+.tabletrcssNew
+{
+   
+   
+   background-color: #f1f1f2;  /* background-image: url( '../images/grid_header_bg.gif' );*/ /*border: solid 1px #0F62AC;*/
+    border: 1px solid #e5e5e5;
+    margin: 15px 0 10px 0;
+    width: 750px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px; /*width:700px;      margin:10px 0 0 0;     border:0px solid #c0c0c0;     text-align:center; 	height: 257px;*/
+}
+.tableCSSRepeater
+{
+    width: 570px;
+    font-size: 11px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    margin: 10px 0 10px 0;
+    color: #0f62ac;
+    border: solid 0px #ccc;
+}
+
+
+
+/*new css for application form*/
+#divBase
+{
+	overflow: auto; 
+	height: 600px; 
+	width: 950px;
+}
+/*new css for application form*/
+/*//////////application form css*/
+.labelPageHeader
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0f62ac;
+}
+.labelPageSubHeader
+{ background-color : #e5e5e5;
+    font-weight: bold;
+    
+    color: #0f62ac;
+}
+.RepeaterHeaderapp1
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	color :#FFB773;
+   background:#4f81bd;
+	font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+	border-bottom: solid 1px #c0c0c0;
+	/*background-color: #e5e5e5;
+	color: #0f62ac;*/
+	font-weight: bold;
+	font-size: 11px;
+}
+.RepeaterHeaderapp2
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	 color :#0066B3;
+   background:#d0d8e8;
+	font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+	border-bottom: solid 1px #c0c0c0;
+	/*background-color: #e5e5e5;
+	color: #0f62ac;*/
+	font-weight: bold;
+	font-size: 11px;
+}
+
+/*.mainHeaderDiv
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+        /*background-color: #1751A8;
+color: #0f62ac;
+    border-bottom: solid 1px #c0c0c0;
+    
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #620A56;
+  background-color: #C25283;
+}*/
+.HeaderFontColor
+{
+	color: #0f62ac;
+	
+}
+.mainHeaderDiv
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #e5e5e5;
+    border-bottom: solid 1px #c0c0c0;
+    color: #0f62ac;
+    font-weight: bold;
+    font-size: 16px;
+}
+.tdHeaderapp
+{
+   color :#0066B3;
+   background:#d0d8e8;
+   text-align:center;
+   font-size:12px;
+   font-weight:bold;
+}
+.tdHeaderappSection
+{
+   color :#EA8E1D;
+   background:#641A03;
+   text-align:left;
+   font-size:12px;
+   margin-top:15PX;
+   padding-top:5px;
+}
+.tabletrcssapp
+{
+   
+   border-collapse:collapse;
+    width:850px;
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px; /*width:700px;      margin:10px 0 0 0;     border:0px solid #c0c0c0;     text-align:center; 	height: 257px;*/
+}
+.tdHeaderappSection1
+{
+   color :#FFB773;
+   background:#4f81bd;
+   text-align:left;
+   font-size:12px;
+   margin-top:15PX;
+   padding-top:0px;
+   border-collapse:collapse;
+}
+.TextCss
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+   /* border: solid 1px #cccccc;*/
+    margin-left: 0px;
+    width: 155px;
+    height: 16px;
+   resize:none;
+   background-color:white;
+}
+
+.DropdownCss
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+    border: solid 1px #cccccc;
+    margin-left: 0px;
+    width: 160px;
+	height: 17px;
+	 background-color:white;
+}
+.DropdownCssRegistrationNo
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+    border: solid 1px #cccccc;
+    margin-left: 0px;
+    width: 400px;
+    height: 17px;
+}
+.LabelCss
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+    margin-left: 0px;
+    width: 155px; /*font-weight: bold;*/
+    text-align: center;
+   /*  background-color:white;*/
+}
+.TextCssapp
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+   /* border: solid 1px #cccccc;*/
+    margin-left: 0px;
+    width: 155px;
+    height: 16px;
+   resize:none;
+  /* background-color:#e5e5e5;*/
+}
+
+.DropdownCssapp
+{
+	
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+    border: solid 1px #cccccc;
+    margin-left: 0px;
+    width: 160px;
+	height: 17px;
+	/* background-color:#e5e5e5;*/
+}
+.LabelCssapp
+{
+    font-family: Verdana, Arial, Calibri,sans serif, Tahoma;
+    font-size: 11px;
+    color: Black;
+    margin-left: 0px;
+    width: 155px; /*font-weight: bold;*/
+    text-align: left;
+      /*background-color:#e5e5e5;*/
+}
+.GridItemStyle
+{
+	border-color: #50a4ef;
+	border-style: solid;
+	border-width: 1px;
+}
+/*mouse over css for grid view
+.DataRow
+{
+background-color:#ffffff;
+}
+.DataRowAlt
+{
+ background-color :#E5E5E5;
+}
+  .DataRow:hover, .DataRowAlt:hover
+{
+   color:White;
+    background-color:#4d84bf;
+    
+}*/
+
+
+/* mouse over css for grid view*/
+.DataRow
+{
+    background-color: #ffffff;
+}
+.DataRowAlt
+{
+    background-color: #E5E5E5;
+}
+.DataRow:hover, .DataRowAlt:hover
+{
+    color: White;
+    background-color: #4d84bf;
+}
+
+/* mouse over css for grid view*/
+.tdHeaderSrNoapp
+{
+   color :#00477D;
+   background:#d0d8e8;
+   text-align:center;
+   font-size:10px;
+   font-weight:bold;
+   margin-top:0;
+   margin-bottom:-0px;
+   border-collapse:collapse;
+   width:25px;
+}
+
+/* change by mansi  mouse over css for grid view
+.DataRow
+{
+background-color:#ffffff;
+}
+.DataRowAlt
+{
+ background-color :#E5E5E5;
+}
+  .DataRow:hover, .DataRowAlt:hover
+{
+   color:White;
+    background-color:#4d84bf;
+    
+}
+
+/* mouse over css for grid view*/
+
+ .windowProcess{
+
+     position:absolute;
+    left:0;
+    top:5;
+    width:400px;
+    height:200px;
+    display:none;
+    z-index:9999;
+    padding:5px;
+    border:1px solid #2F7C9F;
+    background-color:#ffffff;
+    overflow:auto;}
+    
+
+
